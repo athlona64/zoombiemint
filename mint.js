@@ -17,7 +17,7 @@ provider.getTransactionCount(wallet.address, "latest").then(nonce =>{
 		const tx = {
 		  from: wallet.address,
 		  to: '0xC26CcAE0d56832E4e581353a157c5ec5bC61aB03',
-		  value: ethers.utils.parseEther('0.1'),
+		  value: ethers.utils.parseEther('0.01'),
 		  nonce: nonce+i,
 		  data: '0xb7e357a6'
 		}
